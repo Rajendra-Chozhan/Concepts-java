@@ -17,10 +17,9 @@ public class StringReverse {
         int length = original.length();
         
         for(int i=0;i<length; i++) {
-        	
-        //	char ch =  original.charAt(i);
-        	char [] cha = original.toCharArray();
-            reverse = cha[i] + reverse;   //used inbuilt method charAt() to reverse the string
+            	char cha =  original.charAt(i);
+        //	char [] cha = original.toCharArray();
+            reverse =  cha + reverse;   //used inbuilt method charAt() to reverse the string
         }
         System.out.println(reverse);
     }
