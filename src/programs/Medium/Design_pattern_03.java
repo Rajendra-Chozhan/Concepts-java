@@ -1,4 +1,4 @@
-package programs;
+package programs.Medium;
 
 public class Design_pattern_03 {
 
