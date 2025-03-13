@@ -13,8 +13,24 @@ public class Hashmap {
 	    map.put(1,"Amit");  
 	    map.put(5,"Rahul");  
 	    map.put(2,"Jai");  
-	    map.put(6,"Amit");  
+	    map.put(6,"Amit"); 
+		map.remove(1);
+		System.out.println(map);
 
+		// Print keys
+		for (Object i : map.keySet()) {
+			System.out.println(i);
+		}
+
+		// Print values
+		for (Object i : map.values()) {
+			System.out.println(i);
+		}
+
+
+		for (Object i : map.keySet()) {
+			System.out.println("key: " + i + " value: " + map.get(i));
+		}
 	    //Traversing Map  
 	    Set set=map.entrySet();//Converting to Set so that we can traverse  
 	    Iterator itr=set.iterator(); 

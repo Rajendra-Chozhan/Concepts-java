@@ -1,20 +1,42 @@
 package programs;
 
+import collections.Hashmap;
+
+import java.util.HashMap;
 import java.util.Scanner;
 
 public class Occurence_of_Character_in_a_String {
 
-	
-	public static void main(String[] args)
-    {
-  
-		
-		String input = "Java is good Language to learn";
-		
-		int stringlength = input.length();
-		int stringlengthwithout_a = input.replace("a", "").length();
-		
-		int count =stringlength-stringlengthwithout_a;
-		System.out.println("The Occurence of a in the string is "+ count);
+	public static void getcharctercount(String str){
+
+		//String str = "aabbjjjcccchar";
+		HashMap<Character,Integer> hp = new HashMap<Character,Integer>();
+		char strarray[] = str.toCharArray();
+
+
+		for (char c : strarray){
+
+			if (hp.containsKey(c)) {
+				hp.put(c, hp.get(c) + 1);
+			}
+			else{
+
+				hp.put(c, 1);
+			}
+
+
+
+
+		}
+
+		System.out.println("The character count in string " +
+				str +":"+hp);
+
+
+	}
+	public static void main(String[] args) {
+
+	getcharctercount("test");
+	}}
 	    
-}}
+

@@ -10,7 +10,8 @@ public class LinkedlistDemo {
 		al.add("Ravi");  
 		al.add("Vijay");  
 		al.add("Ravi");  
-		al.add("Ajay");  
+		al.add("Ajay");
+		//al.poll();
 		Iterator<String> itr=al.iterator();  
 		while(itr.hasNext()){  
 		System.out.println(itr.next());  

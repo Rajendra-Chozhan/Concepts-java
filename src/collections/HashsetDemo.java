@@ -10,10 +10,7 @@ public class HashsetDemo {
 		HashSet<String> set=new HashSet<String>();  
 		
 		HashSet set1=new HashSet();  
-		
-		
-		
-		
+
 		set.add("Ravi");  
 		set.add("Vijay");  
 		set.add("Ravi");  
@@ -25,7 +22,7 @@ public class HashsetDemo {
 		set1.add(0.2582);  
 		set1.add("Ajay"); 
 		
-		
+
 		//Traversing elements  
 		// data is unordered due to hashing 
 		Iterator<String> itr=set.iterator();  

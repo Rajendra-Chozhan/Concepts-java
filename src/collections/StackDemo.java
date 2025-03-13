@@ -10,8 +10,10 @@ public class StackDemo {
 		stack.push("Garvit");  
 		stack.push("Amit");  
 		stack.push("Ashish");  
-		stack.push("Garima");  
-		stack.pop();  
+		stack.push("Garima");
+		stack.add("gfdgf");
+		//stack.peek();
+		System.out.println("peek up ele"+stack.peek());
 		Iterator<String> itr=stack.iterator();  
 		while(itr.hasNext()){  
 		System.out.println(itr.next());  

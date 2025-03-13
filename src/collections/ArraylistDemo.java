@@ -2,24 +2,28 @@ package collections;
 
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.List;
 
 public class ArraylistDemo {
 	
 	public static void main(String args[]){  
 		
 		
-		ArrayList<String> list=new ArrayList<String>(); //Creating arraylist  
-		
-		ArrayList list1 =new ArrayList();
-		
-		
-		
+		ArrayList<String> list=new ArrayList<String>();//Creating arraylist
+List<String> a = new ArrayList<>() ;
+
+
+        ArrayList list1 =new ArrayList();
+
 		list.add("Ravi");  //0
 		list.add("Vijay");   //1
 		
 		list.add("Ravi");  //2
 		list.add("Ajay");  //3
-		
+		a.add("Ram");
+		list.add(1,"Ram");
+		list.set(2,"Vijayakanth");
+		//list.removeAll()
 		
 		list1.add(123);
 		list1.add("Ram");
@@ -28,8 +32,12 @@ public class ArraylistDemo {
 		// Printing teh element in the list
 		System.out.println("List:"+ list);  
 		System.out.println("List1:"+ list1);
-		
-		
+	//	list.removeAll(list);
+	//	System.out.println("List:"+ list);
+//		list.clear();
+//		System.out.println("List:"+ list);
+		System.out.println("index of element is " +list.indexOf("Vijayakanth"));
+
 		// Getting the elements from the list 
 		String name =list.get(1);
 		System.out.println(name);
