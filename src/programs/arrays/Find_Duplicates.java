@@ -1,4 +1,4 @@
-package arrays;
+package programs.arrays;
 
 public class Find_Duplicates {
 	 public static void main(String[] args) {

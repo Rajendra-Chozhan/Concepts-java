@@ -1,4 +1,4 @@
-package arrays;
+package programs.arrays;
 
 public class Sorting {
 

@@ -1,7 +1,6 @@
-package arrays;
+package programs.arrays;
 
 import java.util.HashSet;
-import java.util.LinkedHashSet;
 import java.util.Set;
 
 public class Remove_duplicates_from_Array {

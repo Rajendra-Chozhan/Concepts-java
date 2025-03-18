@@ -1,8 +1,6 @@
-package arrays;
+package programs.arrays;
 
 
-import java.util.Set;
-import java.util.HashSet;
 public class CommonValuesinTwoArrays {
 	
 	public static void main(String[] args) {
