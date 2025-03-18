@@ -12,8 +12,6 @@ public class Occurence_of_Character_in_a_String {
 		//String str = "aabbjjjcccchar";
 		HashMap<Character,Integer> hp = new HashMap<Character,Integer>();
 		char strarray[] = str.toCharArray();
-
-
 		for (char c : strarray){
 
 			if (hp.containsKey(c)) {
@@ -37,6 +35,9 @@ public class Occurence_of_Character_in_a_String {
 	public static void main(String[] args) {
 
 	getcharctercount("test");
+		getcharctercount("India is my country");
+		getcharctercount("Java is good");
+
 	}}
 	    
 
