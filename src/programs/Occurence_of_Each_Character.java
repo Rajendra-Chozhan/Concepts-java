@@ -12,12 +12,8 @@ public static void main(String args[]) {
 	System.out.println("Enter the String");
 	String str = scan.nextLine();
 
-	
 	str=str.replace(" ","");
-	
 
-	
-	
 	HashMap <Character,Integer> hp = new HashMap<>();
 	
 	for (int i=0;i<str.length();i++) {
